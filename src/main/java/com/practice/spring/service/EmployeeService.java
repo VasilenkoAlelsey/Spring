@@ -1,10 +1,9 @@
-package com.practice.spring.dao;
+package com.practice.spring.service;
 import com.practice.spring.entity.Employee;
 import java.util.List;
 
-public interface EmployeeDAO {
-    public List<Employee> getAllEmployees();
+public interface EmployeeService {
 
+    public List<Employee> getAllEmployees();
     public void saveEmployee(Employee employee);
 }
-
